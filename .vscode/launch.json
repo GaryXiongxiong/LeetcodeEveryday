@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumMovesToEqualArrayElements",
+            "request": "launch",
+            "mainClass": "MinimumMovesToEqualArrayElements",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RelativeRanks",
+            "request": "launch",
+            "mainClass": "RelativeRanks",
+            "projectName": "Leet Code"
+        }
+    ]
+}
