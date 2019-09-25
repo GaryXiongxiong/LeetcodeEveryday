@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BattleshipsInBoard",
+            "request": "launch",
+            "mainClass": "BattleshipsInBoard",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MinimumMovesToEqualArrayElements",
             "request": "launch",
             "mainClass": "MinimumMovesToEqualArrayElements",

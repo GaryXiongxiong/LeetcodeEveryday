@@ -2,8 +2,8 @@
  * @Author: Gary J
  * @Date: 2019-09-21 15:33:58
  * @LastEditors: Gary J
- * @LastEditTime: 2019-09-22 21:38:56
- * @Description: file content
+ * @LastEditTime: 2019-09-25 23:51:05
+ * @Description: https://leetcode.com/problems/relative-ranks/
  */
 import java.util.Arrays;
 class RelativeRanks{

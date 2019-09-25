@@ -2,8 +2,8 @@
  * @Author: Gary J
  * @Date: 2019-09-22 21:26:07
  * @LastEditors: Gary J
- * @LastEditTime: 2019-09-22 21:49:34
- * @Description: file content
+ * @LastEditTime: 2019-09-25 23:50:14
+ * @Description: https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
  */
 import java.util.Arrays;
 
@@ -38,9 +38,9 @@ public class MinimumMovesToEqualArrayElements {
             }
             return count;
         }
-    public static void main(String[] args) {
-        MinimumMovesToEqualArrayElements mmteae = new MinimumMovesToEqualArrayElements();
-        int[] nums = {1,2147483647};
-        System.out.println(mmteae.minMoves(nums));
-    }
+    // public static void main(String[] args) {
+    //     MinimumMovesToEqualArrayElements mmteae = new MinimumMovesToEqualArrayElements();
+    //     int[] nums = {1,2147483647};
+    //     System.out.println(mmteae.minMoves(nums));
+    // }
 }
