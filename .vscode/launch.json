@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - VerifyingAnAlienDictionary",
+            "request": "launch",
+            "mainClass": "VerifyingAnAlienDictionary",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BattleshipsInBoard",
             "request": "launch",
             "mainClass": "BattleshipsInBoard",
