@@ -2,10 +2,10 @@
  * @Author: Gary J
  * @Date: 2019-09-23 23:50:41
  * @LastEditors: Gary J
- * @LastEditTime: 2019-09-25 23:51:24
+ * @LastEditTime: 2019-09-26 19:49:13
  * @Description: https://leetcode.com/problems/battleships-in-a-board/
  */
-class BattleshipsInBoard{
+public class BattleshipsInBoard{
     public int countBattleships(char[][] board) {
         int count = 0;
         for(int x = 0;x<board.length;x++){

@@ -2,10 +2,9 @@
  * @Author: Gary J
  * @Date: 2019-09-22 21:26:07
  * @LastEditors: Gary J
- * @LastEditTime: 2019-09-25 23:50:14
+ * @LastEditTime: 2019-09-26 20:19:26
  * @Description: https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
  */
-import java.util.Arrays;
 
 public class MinimumMovesToEqualArrayElements {
     // TIMEOUT

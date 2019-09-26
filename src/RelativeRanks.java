@@ -6,7 +6,7 @@
  * @Description: https://leetcode.com/problems/relative-ranks/
  */
 import java.util.Arrays;
-class RelativeRanks{
+public class RelativeRanks{
     public String[] findRelativeRanks(int[] nums){
         int[] numsOrdered = nums.clone();
         Arrays.sort(numsOrdered);

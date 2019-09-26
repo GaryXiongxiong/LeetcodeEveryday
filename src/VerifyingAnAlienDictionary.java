@@ -2,10 +2,10 @@
  * @Author: Gary J
  * @Date: 2019-09-26 11:41:14
  * @LastEditors: Gary J
- * @LastEditTime: 2019-09-26 12:22:04
+ * @LastEditTime: 2019-09-26 19:49:24
  * @Description: https://leetcode.com/problems/verifying-an-alien-dictionary/
  */
-class VerifyingAnAlienDictionary{
+public class VerifyingAnAlienDictionary{
     public boolean isAlienSorted(String[] words, String order) {
         for(int i =0;i<words.length-1;i++){
             if (!isFormer(words[i], words[i+1], order)){
