@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindFirstAndLastPositionOfElementInSortedArray",
+            "request": "launch",
+            "mainClass": "FindFirstAndLastPositionOfElementInSortedArray",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SmallestStringStartingFromLeaf",
             "request": "launch",
             "mainClass": "SmallestStringStartingFromLeaf",
