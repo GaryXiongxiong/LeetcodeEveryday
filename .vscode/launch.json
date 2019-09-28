@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RaceCar",
+            "request": "launch",
+            "mainClass": "RaceCar",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BuddyStrings",
             "request": "launch",
             "mainClass": "BuddyStrings",
