@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PalindromePatitioning",
+            "request": "launch",
+            "mainClass": "PalindromePatitioning",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SqrtX",
+            "request": "launch",
+            "mainClass": "SqrtX",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RaceCar",
             "request": "launch",
             "mainClass": "RaceCar",
