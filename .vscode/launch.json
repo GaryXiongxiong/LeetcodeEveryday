@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RecoverATreeFromPreorderTraversal",
+            "request": "launch",
+            "mainClass": "RecoverATreeFromPreorderTraversal",
+            "projectName": "Leet Code"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaxAreaOfIsland",
             "request": "launch",
             "mainClass": "MaxAreaOfIsland",

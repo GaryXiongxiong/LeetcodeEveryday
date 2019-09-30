@@ -3,8 +3,8 @@ import java.util.ArrayList;
 /*
  * @Author: Gary J
  * @Date: 2019-09-27 19:39:43
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-27 20:24:50
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-09-30 20:26:56
  * @Description: https://leetcode.com/problems/buddy-strings/
  */
 public class BuddyStrings{
@@ -26,7 +26,7 @@ public class BuddyStrings{
     public boolean buddyStrings(String A,String B){
         if(A.length()!=B.length()||A.length() == 0) return false;
         if(A.equals(B)){
-            if(A.chars().distinct().count()<A.length()) return true;//TODO: Learn about Stream
+            if(A.chars().distinct().count()<A.length()) return true;
             else return false;
         }
         ArrayList<Character> Alist = new ArrayList<Character>();
