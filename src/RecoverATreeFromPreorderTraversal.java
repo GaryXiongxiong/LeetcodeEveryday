@@ -5,7 +5,7 @@ import java.util.Stack;
  * @Author: Yixiong J
  * @Date: 2019-09-30 11:20:13
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-09-30 20:30:17
+ * @LastEditTime: 2019-10-02 00:56:54
  * @Description: https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/
  */
 public class RecoverATreeFromPreorderTraversal{
@@ -55,10 +55,4 @@ public class RecoverATreeFromPreorderTraversal{
         RecoverATreeFromPreorderTraversal ratfpt = new RecoverATreeFromPreorderTraversal();
         TreeNode tree = ratfpt.recoverFromPreorder("1-401--349---90--88");
     }
-}
-class TreeNode {
-     public int val;
-     public TreeNode left;
-     public TreeNode right;
-     public TreeNode(int x) { val = x; }
 }

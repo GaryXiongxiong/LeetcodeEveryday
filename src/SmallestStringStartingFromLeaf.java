@@ -93,10 +93,3 @@ public class SmallestStringStartingFromLeaf{
         System.out.println(sssfl.smallestFromLeaf(t1));
     }
 }
-
-class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    TreeNode(int x) { val = x; }
-}
