@@ -1,10 +1,9 @@
-package main;
 
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 11:52:55
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-10-02 12:00:18
+ * @LastEditTime: 2019-10-02 15:06:03
  * @Description: https://leetcode.com/problems/sqrtx/
  */
 public class SqrtX{
@@ -27,9 +26,5 @@ public class SqrtX{
             }
         }
         return mid;
-    }
-    public static void main(String[] args) {
-        SqrtX sx = new SqrtX();
-        System.out.println(sx.mySqrt(9));
     }
 }

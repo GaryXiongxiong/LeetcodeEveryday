@@ -1,4 +1,3 @@
-package main;
 
 import java.util.ArrayList;
 
@@ -6,7 +5,7 @@ import java.util.ArrayList;
  * @Author: Gary J
  * @Date: 2019-09-27 19:39:43
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-09-30 20:26:56
+ * @LastEditTime: 2019-10-02 15:07:15
  * @Description: https://leetcode.com/problems/buddy-strings/
  */
 public class BuddyStrings{
@@ -42,11 +41,5 @@ public class BuddyStrings{
         }
         if(Alist.equals(Blist)) return true;
         else return false;
-    }
-
-    public static void main(String[] args) {
-        BuddyStrings bs = new BuddyStrings();
-        boolean result = bs.buddyStrings("ACBB", "ACBB");
-        System.out.println(result);
     }
 }

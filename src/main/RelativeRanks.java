@@ -1,4 +1,3 @@
-package main;
 
 /*
  * @Author: Gary J
@@ -31,10 +30,4 @@ public class RelativeRanks{
         }
         return ranking;
     }
-    // public static void main(String[] args) {
-    //     RelativeRanks rr = new RelativeRanks();
-    //     int[] nums = {1,2,3,4,5};
-    //     String[] returns = rr.findRelativeRanks(nums);
-    //     System.out.println("done");
-    // }
 }

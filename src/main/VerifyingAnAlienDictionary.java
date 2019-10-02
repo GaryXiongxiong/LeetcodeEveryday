@@ -1,10 +1,9 @@
-package main;
 
 /*
  * @Author: Gary J
  * @Date: 2019-09-26 11:41:14
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-10-02 12:00:30
+ * @LastEditTime: 2019-10-02 15:05:49
  * @Description: https://leetcode.com/problems/verifying-an-alien-dictionary/
  */
 public class VerifyingAnAlienDictionary{
@@ -35,10 +34,4 @@ public class VerifyingAnAlienDictionary{
         }
         return true;
     }
-    // public static void main(String[] args) {
-    //     VerifyingAnAlienDictionary vaad = new VerifyingAnAlienDictionary();
-    //     String[] words = {"word","world","row"};
-    //     String order = "worldabcefghijkmnpqstuvxyz";
-    //     System.out.println(vaad.isAlienSorted(words, order));
-    // }
 }

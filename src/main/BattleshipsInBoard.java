@@ -1,5 +1,3 @@
-package main;
-
 /*
  * @Author: Gary J
  * @Date: 2019-09-23 23:50:41
@@ -19,13 +17,4 @@ public class BattleshipsInBoard{
         }
         return count;
     }
-    // public static void main(String[] args) {
-    //     BattleshipsInBoard bib = new BattleshipsInBoard();
-    //     char[][] board = {
-    //         {'x','.','x'},
-    //         {'.','.','x'},
-    //         {'x','x','.'}
-    //     };
-    //     System.out.println(bib.countBattleships(board));
-    // }
 }

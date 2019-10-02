@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - VerifyingAnAlienDictionary",
+            "request": "launch",
+            "mainClass": "VerifyingAnAlienDictionary",
+            "projectName": "LeetcodeEveryday"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BattleshipsInBoard",
+            "request": "launch",
+            "mainClass": "main.BattleshipsInBoard",
+            "projectName": "LeetcodeEveryday"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RecoverATreeFromPreorderTraversal",
             "request": "launch",
             "mainClass": "RecoverATreeFromPreorderTraversal",

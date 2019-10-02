@@ -1,4 +1,3 @@
-package main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +7,8 @@ import java.util.Queue;
 /*
  * @Author: Gary J
  * @Date: 2019-09-26 19:47:05
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-26 21:59:41
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 15:06:15
  * @Description: https://leetcode.com/problems/smallest-string-starting-from-leaf/
  */
 public class SmallestStringStartingFromLeaf{
@@ -76,22 +75,5 @@ public class SmallestStringStartingFromLeaf{
             }
         }
         return smallestLeave;
-    }
-    public static void main(String[] args) {
-        TreeNode t1 = new TreeNode(0);
-        TreeNode t2 = new TreeNode(1);
-        TreeNode t3 = new TreeNode(2);
-        TreeNode t4 = new TreeNode(3);
-        TreeNode t5 = new TreeNode(4);
-        TreeNode t6 = new TreeNode(3);
-        TreeNode t7 = new TreeNode(4);
-        t1.left = t2;
-        t1.right = t3;
-        t2.left = t4;
-        t2.right = t5;
-        t3.left = t6;
-        t3.right = t7;
-        SmallestStringStartingFromLeaf sssfl = new SmallestStringStartingFromLeaf();
-        System.out.println(sssfl.smallestFromLeaf(t1));
     }
 }

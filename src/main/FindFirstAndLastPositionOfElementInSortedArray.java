@@ -1,4 +1,3 @@
-package main;
 
 /*
  * @Author: Gary J
@@ -36,12 +35,4 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         int[] found = { mid1, mid2 };
         return found;
     }
-
-    // public static void main(String[] args) {
-    //     FindFirstAndLastPositionOfElementInSortedArray ffalpoeisa = new FindFirstAndLastPositionOfElementInSortedArray();
-    //     int[] nums = { 1,1,2 };
-    //     int target = 1;
-    //     int[] result = ffalpoeisa.searchRange(nums, target);
-    //     System.out.println(Arrays.toString(result));
-    // }
 }

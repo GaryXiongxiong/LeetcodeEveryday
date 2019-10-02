@@ -1,10 +1,9 @@
-package main;
 
 /*
  * @Author: Gary J
  * @Date: 2019-09-29 22:50:58
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-29 23:25:35
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 15:07:03
  * @Description: https://leetcode.com/problems/max-area-of-island/
  */
 import java.util.LinkedList;
@@ -52,19 +51,5 @@ public class MaxAreaOfIsland{
             }
         }
         return maxArea;
-    }
-    public static void main(String[] args) {
-        MaxAreaOfIsland maoi = new MaxAreaOfIsland();
-        int[][] grid = {
-            {0,0,1,0,0,0,0,1,0,0,0,0,0},
-            {0,0,0,0,0,0,0,1,1,1,0,0,0},
-            {0,1,1,0,1,0,0,0,0,0,0,0,0},
-            {0,1,0,0,1,1,0,0,1,0,1,0,0},
-            {0,1,0,0,1,1,0,0,1,1,1,0,0},
-            {0,0,0,0,0,0,0,0,0,1,1,0,0},
-            {0,0,0,0,0,0,0,1,1,1,1,0,0},
-            {0,0,0,0,0,0,0,1,1,0,0,0,0}
-        };
-        System.out.println(maoi.maxAreaOfIsland(grid));
     }
 }

@@ -1,5 +1,3 @@
-package main;
-
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 01:19:57
@@ -28,11 +26,5 @@ public class RaceCar{
     }
     int distance(int k){
         return (1<<k)-1;
-    }
-    public static void main(String[] args) {
-        RaceCar rc = new RaceCar();
-        int target = 10;
-        int result = rc.racecar(target);
-        System.out.println(result);
     }
 }

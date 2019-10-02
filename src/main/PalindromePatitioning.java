@@ -1,10 +1,9 @@
-package main;
 
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 13:19:20
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-10-02 11:59:34
+ * @LastEditTime: 2019-10-02 15:06:40
  * @Description: https://leetcode.com/problems/palindrome-partitioning/
  */
 import java.util.ArrayList;
@@ -71,10 +70,5 @@ public class PalindromePatitioning{
             if(s.charAt(i)!=s.charAt(s.length()-1-i)) return false;
         }
         return true;
-    }
-    public static void main(String[] args) {
-        PalindromePatitioning pp = new PalindromePatitioning();
-        List<List<String>> list = pp.partition("amanaplanacanalpan");
-        System.out.println(list.toString());
     }
 }

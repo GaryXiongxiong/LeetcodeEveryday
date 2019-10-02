@@ -1,4 +1,3 @@
-package main;
 
 /*
  * @Author: Yixiong J
