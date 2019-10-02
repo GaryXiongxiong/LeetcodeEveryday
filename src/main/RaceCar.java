@@ -1,8 +1,10 @@
+package main;
+
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 01:19:57
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-28 01:54:11
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 11:59:41
  * @Description: https://leetcode.com/problems/race-car/
  */
 public class RaceCar{

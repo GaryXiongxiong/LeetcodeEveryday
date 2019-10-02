@@ -1,8 +1,10 @@
+package main;
+
 /*
  * @Author: Gary J
  * @Date: 2019-09-23 23:50:41
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-26 19:49:13
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 11:58:46
  * @Description: https://leetcode.com/problems/battleships-in-a-board/
  */
 public class BattleshipsInBoard{

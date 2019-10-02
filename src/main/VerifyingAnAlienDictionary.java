@@ -1,8 +1,10 @@
+package main;
+
 /*
  * @Author: Gary J
  * @Date: 2019-09-26 11:41:14
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-26 19:49:24
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 12:00:30
  * @Description: https://leetcode.com/problems/verifying-an-alien-dictionary/
  */
 public class VerifyingAnAlienDictionary{

@@ -1,8 +1,10 @@
+package main;
+
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 11:52:55
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-28 12:47:33
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 12:00:18
  * @Description: https://leetcode.com/problems/sqrtx/
  */
 public class SqrtX{

@@ -1,8 +1,10 @@
+package main;
+
 /*
  * @Author: Gary J
  * @Date: 2019-09-28 13:19:20
- * @LastEditors: Gary J
- * @LastEditTime: 2019-09-29 20:19:26
+ * @LastEditors: Yixiong J
+ * @LastEditTime: 2019-10-02 11:59:34
  * @Description: https://leetcode.com/problems/palindrome-partitioning/
  */
 import java.util.ArrayList;
