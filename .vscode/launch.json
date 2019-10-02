@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - QueueReconstructionByHeight",
+            "request": "launch",
+            "mainClass": "QueueReconstructionByHeight",
+            "projectName": "LeetcodeEveryday"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - VerifyingAnAlienDictionary",
             "request": "launch",
             "mainClass": "VerifyingAnAlienDictionary",
