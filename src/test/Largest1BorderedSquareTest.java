@@ -2,7 +2,7 @@
  * @Author: Yixiong J
  * @Date: 2019-10-03 21:38:29
  * @LastEditors: Yixiong J
- * @LastEditTime: 2019-10-03 21:54:29
+ * @LastEditTime: 2019-10-03 22:18:54
  * @Description: Test for Largest1BorderedSquare
  */
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -37,6 +37,6 @@ public class Largest1BorderedSquareTest {
         assertEquals(9, new Largest1BorderedSquare().largest1BorderedSquare(grid1));
         assertEquals(1, new Largest1BorderedSquare().largest1BorderedSquare(grid2));
         assertEquals(16, new Largest1BorderedSquare().largest1BorderedSquare(grid3));
-        assertEquals(2, new Largest1BorderedSquare().largest1BorderedSquare(grid4));
+        assertEquals(4, new Largest1BorderedSquare().largest1BorderedSquare(grid4));
     }
 }
