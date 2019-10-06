@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ValidBoomerang",
+            "request": "launch",
+            "mainClass": "ValidBoomerang",
+            "projectName": "LeetcodeEveryday"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeTwoSortedLists",
             "request": "launch",
             "mainClass": "MergeTwoSortedLists",
